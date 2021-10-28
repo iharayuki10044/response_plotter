@@ -29,9 +29,6 @@ for index in range(len(data_list)):
     y2 += [float(splited_data[2])]
     index_num = index
 
-dt = x[1] - x[0]
-show_ratio = 5
-
 pyplot.plot(x,y1, label="MVn")
 pyplot.plot(x,y2, label="PVn")
 pyplot.xlabel("time[sec]")
